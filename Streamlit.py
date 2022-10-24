@@ -6,10 +6,10 @@ def load_data():
     data = pd.read_csv("international_matches.csv")
     return data
 
-st.title("Speed Test Analytics")
+st.title("International matches")
 
-if st.checkbox("Afficher les données"):
-    st.subheader("Dataset SpeedTest by Oakala")
+if st.checkbox("Show data"):
+    st.subheader("H3hitema")
     st.write(load_data())
 
 
