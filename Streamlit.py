@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 def load_data():
-    data = pd.read_csv("/Users/joker/Downloads/international_matches.csv")
+    data = pd.read_csv("international_matches.csv")
     return data
 
 st.title("Speed Test Analytics")
