@@ -6,10 +6,10 @@ def load_data():
     data = pd.read_csv("international_matches.csv")
     return data
 
-st.title("International matches")
+st.title("H3HITEMA")
 
-if st.checkbox("Show data"):
-    st.subheader("H3hitema")
+if st.checkbox("Afficher les données"):
+    st.subheader("See Matches")
     st.write(load_data())
 
 
